@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextSceneBtn : MonoBehaviour
+public class NextScene0 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,6 @@ public class NextSceneBtn : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene(0);
     }
 }
